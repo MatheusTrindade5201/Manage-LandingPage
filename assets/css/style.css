@@ -1,3 +1,5 @@
+@import url('/assets/css/header.css');
+
 :root {
     --vermelho-claro: #f25f3a;
     --azul-escuro: #242d52;
@@ -5,10 +7,22 @@
     --azul-extra-escuro: #1d1e25;
     --vermelho-palido: #ffefeb;
     --cinza-claro: #fafafa;
-
+    --branco: #ffffff;
 }
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
+}
+
+.secao-superior {
+    background-image: url('../css/bg.png');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:70%;
+    background-position:top right;
+    width: 100vw;
+    height: 100vh;
 }
