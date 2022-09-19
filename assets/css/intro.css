@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.descricao__titulo {
+.intro__descricao__titulo {
     color: var(--azul-escuro);
     font-weight: 700;
     font-size: 2rem;
@@ -32,11 +32,10 @@
     padding: 1rem 0;
 }
 
-.descricao__texto {
+.intro__descricao__texto {
     color: var(--azul-cinzento);
     text-align: center;
     line-height: 1.5rem;
-    /* padding: 0 2rem; */
     font-weight: 400;
 }
 

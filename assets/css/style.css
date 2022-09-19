@@ -1,8 +1,10 @@
 @import url('/assets/css/header.css');
 @import url('/assets/css/intro.css');
+@import url('/assets/css/sobre.css');
 
 :root {
     --vermelho-claro: #f25f3a;
+    --vermelho-claro-opaco:rgb(242, 95, 58, .1);
     --azul-escuro: #242d52;
     --azul-cinzento: #9095a7;
     --azul-extra-escuro: #1d1e25;
@@ -26,5 +28,5 @@ body {
     background-position:top right;
     width: 100vw;
     height: 100vh;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
