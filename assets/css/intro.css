@@ -1,0 +1,61 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10% 2rem 10%;
+}
+
+.intro__imagem {
+    background-image: url('../../images/illustration-intro.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 80vw;
+    height: 50vh;
+    /* margin: 0 10vw; */
+}
+
+.intro__descricao {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.descricao__titulo {
+    color: var(--azul-escuro);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 1rem 0;
+}
+
+.descricao__texto {
+    color: var(--azul-cinzento);
+    text-align: center;
+    line-height: 1.5rem;
+    /* padding: 0 2rem; */
+    font-weight: 400;
+}
+
+.descricao__botao {
+    background-color: var(--vermelho-claro);
+    border-radius: 24px;
+    box-shadow: 0 10px 20px -10px var(--vermelho-claro);
+    color: var(--cinza-claro);
+    font-weight: 700;
+    margin-top: 2rem;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    transition: .3s;
+}
+
+/* .descricao__botao:hover {
+    cursor: pointer;
+    opacity: .5;
+    Código para incluir ao fazer o responsivo ara desktop
+} */

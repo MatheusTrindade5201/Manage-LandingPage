@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     width: 90vw;
+    
 }
 
 
@@ -25,7 +26,7 @@
     top: 15%;
     background-color: var(--branco);
     padding: 2rem 0;
-    box-shadow: 2px 1px 100vh 1px rgba(0, 0, 0, 0.8)
+    box-shadow: 2px 1px 100vh 1px rgba(0, 0, 0, 0.8);
 }
 
 .menu__item {
@@ -49,4 +50,6 @@
 .cabecalho__menu-botao:checked~.cabecalho__menu-mobile {
     display: block;
 }
+
+
 

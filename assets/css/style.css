@@ -1,4 +1,5 @@
 @import url('/assets/css/header.css');
+@import url('/assets/css/intro.css');
 
 :root {
     --vermelho-claro: #f25f3a;
@@ -16,7 +17,7 @@ body {
 }
 
 .secao-superior {
-    background-image: url('../css/bg.png');
+    background-image: url('../../images/bg.png');
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -25,4 +26,5 @@ body {
     background-position:top right;
     width: 100vw;
     height: 100vh;
+    margin-bottom: 5rem;
 }
