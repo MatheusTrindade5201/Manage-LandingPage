@@ -1,0 +1,32 @@
+.updates {
+    display: flex;
+    justify-content: center;
+    background-color: var(--azul-escuro);
+    padding: 2rem 0;
+}
+
+.updates__texto-input {
+    padding: 1em;
+    margin-right: .5rem;
+    border-radius: 24px;
+    border: none;
+    width: 230px;
+}
+
+.updates__texto-input::placeholder {
+    color: var(--azul-cinzento);
+}
+
+.updates__botao {
+    background-color: var(--vermelho-claro);
+    border-radius: 24px;
+    border: none;
+    color: var(--cinza-claro);
+    font-weight: 700;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    transition: .3s;
+}
+
