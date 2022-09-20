@@ -2,8 +2,8 @@
     padding: 2.5rem 0 0 1rem;
     display: flex;
     justify-content: space-between;
-    width: 90vw;
     align-items: center;
+    margin: 0 2rem;
 }
 
 .cabecalho__imagem {
@@ -61,6 +61,10 @@
 }
 
 @media screen and (min-width: 930px) {
+    .cabecalho {
+        margin: 0 10vw;
+    }
+
     .cabecalho__desktop{
         align-items: center;
         display: flex;
