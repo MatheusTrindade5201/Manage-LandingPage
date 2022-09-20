@@ -67,3 +67,10 @@
     width: fit-content;
     transition: .3s;
 }
+
+@media screen and (min-width: 930px) {
+    .depoimentos__carrossel__item {
+        width: calc(35% - 2em);
+        flex: 1 0 calc(35% - 2em);
+    }
+}
