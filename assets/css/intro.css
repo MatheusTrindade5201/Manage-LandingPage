@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 10% 2rem 10%;
+    margin: 2rem 10% 2rem 10%;
 }
 
 .intro__imagem {
@@ -11,15 +11,14 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    width: 80vw;
-    height: 50vh;
-    /* margin: 0 10vw; */
+    min-width: 450px;
+    min-height: 500px;
 }
 
 .intro__descricao {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 300px;
     align-items: center;
 }
 
@@ -53,8 +52,38 @@
     transition: .3s;
 }
 
-/* .descricao__botao:hover {
-    cursor: pointer;
-    opacity: .5;
-    Código para incluir ao fazer o responsivo ara desktop
-} */
+@media screen and (min-width: 930px) {
+    .intro {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    
+    .intro__descricao {
+        align-items:unset;
+        max-width: 450px;
+
+    }
+
+    .intro__descricao__titulo {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .intro__descricao__texto {
+        text-align: left;
+        max-width: 380px;
+    }
+
+    .intro__imagem {
+        min-width: 500px;
+    }
+
+    .descricao__botao:hover {
+        cursor: pointer;
+        opacity: .5;
+    }
+}
+
+
