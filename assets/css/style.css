@@ -1,7 +1,8 @@
-@import url('/assets/css/header.css');
-@import url('/assets/css/intro.css');
-@import url('/assets/css/sobre.css');
+@import url('header.css');
+@import url('intro.css');
+@import url('sobre.css');
 @import url('depoimentos.css');
+@import url('getStarted.css');
 
 :root {
     --vermelho-claro: #f25f3a;
