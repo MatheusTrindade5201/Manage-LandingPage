@@ -1,5 +1,5 @@
 .cabecalho {
-    padding: 2.5rem 0;
+    padding: 2.5rem 0 0 1rem;
     display: flex;
     justify-content: space-between;
     width: 90vw;
