@@ -56,3 +56,45 @@
     font-size: .9rem;
     margin: 1em 2em 3em 1em;
 }
+
+@media screen and (min-width: 930px) {
+    .sobre {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10vw;
+    }
+
+    .sobre__lista {
+        max-width: 500px;
+    }
+
+    .sobre__descricao {
+        width: 500px;
+        align-self: flex-start;
+    }
+
+    .sobre__descricao__titulo {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .sobre__descricao__texto {
+        text-align: left;
+        align-self: flex-start;
+        width: 330px;
+    }
+
+    .item__titulo {
+        background-color: unset;
+        margin: 0;
+    }
+
+    .item__numeracao {
+        margin-right: 1.5rem;
+    }
+
+    .item__descricao {
+        margin: 1em 1em 3em 6.4em;
+    }
+    
+}
