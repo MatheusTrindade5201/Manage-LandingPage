@@ -52,6 +52,7 @@
     text-align: center;
     line-height: 1.5rem;
     font-weight: 400;
+    padding: 0 1rem;
 }
 
 .depoimento__botao {
@@ -72,5 +73,10 @@
     .depoimentos__carrossel__item {
         width: calc(35% - 2em);
         flex: 1 0 calc(35% - 2em);
+    }
+
+    .depoimento__botao:hover {
+        cursor: pointer;
+        opacity: .5;
     }
 }

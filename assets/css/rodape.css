@@ -24,7 +24,7 @@
     font-size: .8rem;
     text-decoration: none;
     text-align: center;
-    
+    transition: .2s;
 }
 
 .rodape__social-lista {
@@ -33,7 +33,7 @@
     width: 300px;
 }
 
-.social__item-link>img {
+.social__item-link>svg {
     width: 35px;
     margin: 1rem 0 2.5rem 0;
 }
@@ -49,4 +49,63 @@
     text-decoration: none;
     text-align: center;
     font-size: .8rem;
+}
+
+@media screen and (min-width: 930px) {
+    .rodape {
+        padding: 3rem 10vw;
+        display: grid;
+        grid-template-areas: 
+        "logo lista lista update"
+        "social lista lista copyright";
+    }
+    
+    .rodape__logo {
+        grid-area: logo;
+    }
+
+    .rodape__social-lista {
+        grid-area: social;
+    }
+
+    .rodape__paginas-lista {
+        grid-area: lista;
+    }
+
+    .updates {
+        grid-area: update;
+    }
+
+    .attribution {
+        grid-area: copyright;
+    }
+
+    .social__item-link>svg {
+        width: 20px;
+        margin: 1rem 0 2.5rem 0;
+    }
+
+    .social__item-link>svg path {
+        transition: .2s;
+    }
+
+    .social__item-link>svg:hover path{
+        fill: var(--vermelho-claro);
+    }
+
+    .rodape__social-lista {
+        display: flex;
+        justify-content: space-between;
+        width: 180px;
+    }
+
+    .rodape__item-link:hover {
+        color: var(--vermelho-claro);
+    }
+    
+    .updates__botao:hover {
+        cursor: pointer;
+        background-color: #f9c8b9;
+    }
+
 }

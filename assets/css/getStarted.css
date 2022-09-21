@@ -26,3 +26,23 @@
     width: fit-content;
     transition: .3s;
 }
+
+@media screen and (min-width: 930px) {
+    .getStarted {
+        margin-top: 10rem;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4.5rem 10vw 4.5rem 10vw;
+    }
+
+    .getStarted__titulo {
+        width: 550px;
+        text-align: left;
+    }
+
+    .getStarted__botao:hover {
+        cursor: pointer;
+        color: rgb(242, 95, 58, .3);
+    }
+
+}
