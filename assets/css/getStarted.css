@@ -4,6 +4,9 @@
     align-items: center;
     background-color: var(--vermelho-claro);
     padding: 4.5rem 1.5rem;
+    background-image: url('../../images/bg-simplify-section-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 .getStarted__titulo {
@@ -33,6 +36,8 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 4.5rem 10vw 4.5rem 10vw;
+        background-image: url('../../images/bg-simplify-section-desktop.svg');
+
     }
 
     .getStarted__titulo {

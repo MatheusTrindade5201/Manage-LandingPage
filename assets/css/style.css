@@ -20,17 +20,32 @@
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
+
 }
 
-/* .secao-superior {
-    background-image: url('../../images/bg.png');
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:70%;
-    background-position:top right;
-    width: 100vw;
-    height: 100vh;
-    margin-bottom: 6rem;
-} */
+.secao__superior {
+    background-image: url('../../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100vw - 300px);
+    background-position-y: -110.1px;
+    background-attachment:unset;
+    background-size: 562.5px;
+}
+
+@media screen and (min-width:930px) {
+    .secao__superior {
+        background-image: url('../../images/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-position-x: 58vw;
+        background-position-y: -300px;
+        background-size: auto;
+    }
+
+    .secao__meio {
+        background-image: url('../../images/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-position-x: -504px;
+        background-position-y: 183.45px;
+    }
+}
+
