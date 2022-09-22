@@ -26,23 +26,18 @@
 
 .depoimentos__carrossel__item {
     width: calc(100% - 2em);
-    flex: 1 0 calc(100% - 2em);
+    flex: 1 0 calc(100% - 5em);
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--cinza-claro);
-    margin: 0 1em;
-    /* padding-bottom: 2em; */
+    margin: 0 2em;
 }
 
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: var(--vermelho-claro);
     opacity: 1;
 }
-
-/* .swiper-pagination {
-    bottom: -10px !important;
-} */
 
 span.swiper-pagination-bullet {
     background-color: unset;
@@ -90,7 +85,7 @@ span.swiper-pagination-bullet {
  }
 
 .swiper-wrapper {
-    width: 100%;
+    width: 50%;
     height: 100%;
 }
 

@@ -3,7 +3,7 @@ function tamanhoTela() {
     if(telaLargura <= 930){
         var slides = 1
     }else{
-        slides = 3}
+        slides = 2.5}
 
     var swiper = new Swiper('.swiper', {
         slidesPerView: slides,  
