@@ -34,6 +34,7 @@
     text-align: center;
     width: 90vw;
     top: 15%;
+    right: 5vw;
     background-color: var(--branco);
     padding: 2rem 0;
     z-index: 3;
