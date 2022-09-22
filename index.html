@@ -125,10 +125,13 @@
     <a href="#" class="getStarted__botao">Get Started</a>
   </section>
   <footer class="rodape">
-    <form class="updates">
-      <input type="text" placeholder="Updates in your inbox…" class="updates__texto-input">
-      <input type="submit" value="Go" class="updates__botao">
-    </form>
+    <div class="secao__updates">
+      <form class="updates">
+        <input type="text" placeholder="Updates in your inbox…" class="updates__texto-input" id="email">
+        <input type="submit" value="Go" class="updates__botao" id="submit">
+      </form>
+      <span class="erro" id="mensagem__erro">Please insert a valid email</span>
+    </div>
     <ul class="rodape__paginas-lista">
       <li class="rodape__paginas-lista__item"><a href="#" class="rodape__item-link">Home</a></li>
       <li class="rodape__paginas-lista__item"><a href="#" class="rodape__item-link">Pricing</a></li>
@@ -175,6 +178,7 @@
   <!-- <div id="back"></div> -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/validador.js"></script>
 </body>
 
 </html>

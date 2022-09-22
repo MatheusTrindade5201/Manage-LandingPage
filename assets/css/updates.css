@@ -2,7 +2,18 @@
     display: flex;
     justify-content: center;
     background-color: var(--azul-escuro);
-    padding: 2rem 0;
+    padding: 2rem 0 .6rem 0;
+}
+
+.erro {
+    margin-left: 4rem;
+    font-size: .8rem;
+    color: crimson;
+    display: none;
+}
+
+.erro__visivel {
+    display: block;
 }
 
 .updates__texto-input {
@@ -11,6 +22,11 @@
     border-radius: 24px;
     border: none;
     width: 230px;
+}
+
+.updates__texto-erro {
+    border: 1.5px solid crimson;
+    color: var(--vermelho-claro);
 }
 
 .updates__texto-input::placeholder {
@@ -28,5 +44,9 @@
     text-decoration: none;
     width: fit-content;
     transition: .3s;
+}
+
+.invalid {
+    border: red;
 }
 
