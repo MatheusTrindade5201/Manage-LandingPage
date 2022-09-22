@@ -32,6 +32,16 @@ body {
     background-size: 562.5px;
 }
 
+.back{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(255, 255, 255,.1),rgba(0,0,0,0.9));
+    width: 100%;
+    height: 975px;
+}
+
 @media screen and (min-width:930px) {
     .secao__superior {
         background-image: url('../../images/bg-tablet-pattern.svg');
