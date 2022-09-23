@@ -9,6 +9,7 @@
 .cabecalho__imagem {
     max-width: 146px;
     max-height: 27px;
+    flex-grow: 1;
 }
 
 .cabecalho__desktop {
@@ -33,11 +34,15 @@
     position:fixed;
     text-align: center;
     width: 90vw;
-    top: 15%;
+    top: 130px;
     right: 5vw;
     background-color: var(--branco);
     padding: 2rem 0;
     z-index: 3;
+}
+
+.cabecalho__menu-mobile-dark-mode {
+    background-color: rgb(36, 45, 82, .9);
 }
 
 .menu__item {
@@ -49,6 +54,9 @@
     font-weight: 700;
 }
 
+.menu__item>.menu__link-dark-mode {
+    color: var(--branco);
+}
 
 .cabecalho__menu-botao {
     display: none;
@@ -58,6 +66,7 @@
     background-image: url('../../images/icon-close.svg');
     position: fixed;
     right: 2rem;
+    top: 5.5rem;
 }
 
 .cabecalho__menu-botao:checked~.cabecalho__menu-mobile {
@@ -92,6 +101,10 @@
         transition: .2s;
     }
 
+    .menu__item-desktop .menu__link-dark-mode {
+        color: var(--branco);
+    }
+
     .menu__item-desktop .menu__link:hover {
         opacity: .5;
     }
@@ -122,3 +135,65 @@
     }
 }
 
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    margin: 2rem 0 0 2rem;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--azul-escuro);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--vermelho-claro);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--azul-cinzento);
+    border: 1px solid var(--azul-cinzento);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+    background-color: var(--branco);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

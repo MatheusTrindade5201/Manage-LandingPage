@@ -9,6 +9,7 @@
 :root {
     --vermelho-claro: #f25f3a;
     --vermelho-claro-opaco:rgb(242, 95, 58, .1);
+    --vermelho-claro-opaco-2:rgb(242, 95, 58, .3);
     --azul-escuro: #242d52;
     --azul-cinzento: #9095a7;
     --azul-extra-escuro: #1d1e25;
@@ -23,6 +24,10 @@ body {
 
 }
 
+.dark__theme-body {
+    background-color: var(--azul-escuro);
+}
+
 .secao__superior {
     background-image: url('../../images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
@@ -30,6 +35,10 @@ body {
     background-position-y: -110.1px;
     background-attachment:unset;
     background-size: 562.5px;
+}
+
+.secao__superior-dark-mode {
+    background-image: url('../../images/bg-tablet-pattern-dark-mode.svg');
 }
 
 .back{
@@ -44,7 +53,6 @@ body {
 
 @media screen and (min-width:930px) {
     .secao__superior {
-        background-image: url('../../images/bg-tablet-pattern.svg');
         background-repeat: no-repeat;
         background-position-x: 58vw;
         background-position-y: -300px;
@@ -57,5 +65,11 @@ body {
         background-position-x: -504px;
         background-position-y: 183.45px;
     }
+
+    .secao__meio-dark-mode {
+        background-image: url('../../images/bg-tablet-pattern-dark-mode.svg');
+    }
 }
+
+/* #ff8766 */
 

@@ -32,7 +32,10 @@
     background-size: 375px;
     background-position-y: 0;
     background-position-x: calc(100vw - 120px);
+}
 
+.intro__bg-dark-mode {
+    background-image: url('../../images/bg-tablet-pattern-dark-mode.svg');
 }
 
 .intro__descricao__titulo {
