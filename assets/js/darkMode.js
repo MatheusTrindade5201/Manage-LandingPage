@@ -7,6 +7,8 @@ function trocaTema () {
     trocaCabecalho();
     trocaPadroesFundo();
     trocaMenuMobile();
+    trocaTitulos();
+    trocaTextos();
 }
 
 function corBody () {
@@ -37,5 +39,15 @@ function trocaMenuMobile () {
     const menuMobile = document.querySelector('.cabecalho__menu-mobile');
     const menuLinks = document.querySelectorAll('.menu__link');
     menuMobile.classList.toggle('cabecalho__menu-mobile-dark-mode');
-    menuLinks.forEach(n=> n.classList.toggle('menu__link-dark-mode'))
+    menuLinks.forEach(n => n.classList.toggle('menu__link-dark-mode'))
+}
+
+function trocaTitulos () {
+    const titulos = document.querySelectorAll('.titulo');
+    titulos.forEach(n => n.classList.toggle('titulo-dark-mode'));
+}
+
+function trocaTextos () {
+    const textos = document.querySelectorAll('.texto');
+    textos.forEach(n => n.classList.toggle('texto-dark-mode'))
 }

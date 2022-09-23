@@ -13,12 +13,21 @@
     padding: 1rem 0;
 }
 
+.titulo-dark-mode {
+    color: var(--vermelho-claro);
+}
+
 .sobre__descricao__texto {
     color: var(--azul-cinzento);
     text-align: center;
     line-height: 1.5rem;
     font-weight: 400;
 }
+
+.texto-dark-mode {
+    color: var(--branco);
+}
+
 
 .sobre__descricao {
     display: flex;
