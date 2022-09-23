@@ -38,6 +38,10 @@
     margin: 0 2em;
 }
 
+.depoimentos__carrossel__item-dark-mode {
+    background-color: var(--vermelho-claro-opaco-2);
+}
+
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: var(--vermelho-claro);
     opacity: 1;
@@ -58,6 +62,10 @@ span.swiper-pagination-bullet {
     color: var(--azul-escuro);
     font-weight: 700;
     padding: 2em 0;
+}
+
+.depoimento__item-nome-dark-mode {
+    color: var(--branco);
 }
 
 .depoimento__item-texto {
@@ -85,6 +93,10 @@ span.swiper-pagination-bullet {
     text-decoration: none;
     width: fit-content;
     transition: .3s;
+}
+
+.botao-dark-mode {
+    box-shadow: unset;
 }
 
 .swiper {

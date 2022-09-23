@@ -46,6 +46,10 @@
     border-radius: 24px 0 0 24px;
 }
 
+.item__titulo-dark-mode {
+    background-color: var(--branco-opaco);
+}
+
 .item__numeracao {
     background-color: var(--vermelho-claro);
     border-radius: 24px;

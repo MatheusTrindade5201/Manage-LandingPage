@@ -76,6 +76,10 @@
     transition: .3s;
 }
 
+.botao-dark-mode {
+    box-shadow: unset;
+}
+
 @media screen and (min-width: 930px) {
     .intro {
         flex-direction: row-reverse;

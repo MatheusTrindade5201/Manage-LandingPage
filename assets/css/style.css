@@ -16,6 +16,7 @@
     --vermelho-palido: #ffefeb;
     --cinza-claro: #fafafa;
     --branco: #ffffff;
+    --branco-opaco: rgb(255, 255, 255,.1);
 }
 
 body {

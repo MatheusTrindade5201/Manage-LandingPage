@@ -125,6 +125,10 @@
         font-size: .8rem;
     }
 
+    .botao-dark-mode {
+        box-shadow: unset;
+    }
+
     .cabecalho__botao:hover {
         cursor: pointer;
         opacity: .5;

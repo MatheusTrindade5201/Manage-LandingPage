@@ -9,6 +9,9 @@ function trocaTema () {
     trocaMenuMobile();
     trocaTitulos();
     trocaTextos();
+    estilizaCards();
+    trocaBotoes();
+    estilizaSobre();
 }
 
 function corBody () {
@@ -50,4 +53,21 @@ function trocaTitulos () {
 function trocaTextos () {
     const textos = document.querySelectorAll('.texto');
     textos.forEach(n => n.classList.toggle('texto-dark-mode'))
+}
+
+function estilizaCards () {
+    const cards = document.querySelectorAll('.depoimentos__carrossel__item');
+    const nomes = document.querySelectorAll('.depoimento__item-nome');
+    cards.forEach(n => n.classList.toggle('depoimentos__carrossel__item-dark-mode'));
+    nomes.forEach(n => n.classList.toggle('depoimento__item-nome-dark-mode'))
+}
+
+function trocaBotoes () {
+    const botoes = document.querySelectorAll('.botao');
+    botoes.forEach(n => n.classList.toggle('botao-dark-mode'))
+}
+
+function estilizaSobre () {
+    const tituloSobre = document.querySelectorAll('.item__titulo');
+    tituloSobre.forEach(n => n.classList.toggle('item__titulo-dark-mode'))
 }
